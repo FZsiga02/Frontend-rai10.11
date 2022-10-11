@@ -34,5 +34,12 @@ document.addEventListener('DOMContentLoaded', () => {
             return `${this.labakSzama} lábú százlábú`
         }
     }
+
+    function labakbolSzazlabuk(array){
+        let centipedes = [];
+        array.forEach(e => {
+            centipedes.push(new Szazlabu(e));
+        })
+    }
     
 })
