@@ -16,4 +16,10 @@ document.addEventListener('DOMContentLoaded', () => {
     })
     console.log(b);
     })
+
+    document.getElementById('add').addEventListener('click', () => {
+        a.push(parseInt(document.getElementById('number').value));
+        console.log(a);
+    })
+    
 })
