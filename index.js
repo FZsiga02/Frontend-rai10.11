@@ -41,5 +41,14 @@ document.addEventListener('DOMContentLoaded', () => {
             centipedes.push(new Szazlabu(e));
         })
     }
+
+    function szazlabuMegjelenites(text, list){
+        let output = document.getElementById(text);
+        list.forEach(e => {
+            let item = document.getElementById('textarea');
+            item.textContent = e;
+            output.appendChild(item);
+        })
+    }
     
 })
