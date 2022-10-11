@@ -22,4 +22,17 @@ document.addEventListener('DOMContentLoaded', () => {
         console.log(a);
     })
     
+    class Szazlabu {
+
+        labakSzama
+
+        constructor() {
+            this.labakSzama = labakSzama;
+        }
+
+        toString(){
+            return `${this.labakSzama} lábú százlábú`
+        }
+    }
+    
 })
